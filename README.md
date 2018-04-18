@@ -1,3 +1,5 @@
+<a href='https://tomasz-paterka.github.io/tic_tac_toe/'>Live preview</a>
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
