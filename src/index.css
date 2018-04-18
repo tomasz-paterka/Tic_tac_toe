@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
 * {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	box-sizing: border-box;
 }
 
@@ -12,25 +14,43 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	min-height: 100vh;
+	margin: 0 auto;
+	font-family: 'Permanent Marker', cursive;
+	background-color: #403075;
 }
 .game {
-	
+	display: flex;
+	flex-direction: row;
 }
 
 .game-board {
-	
 	height: 600px;
 	width: 600px;
-}
-.game-field {
-	
-	
+	background-color: #877CB0;
 }
 .board-row {
 	display: flex;
-	
 }
 .square {
 	flex: 1;
 	height: 200px;
+	font-size: 100px;
+	font-family: 'Permanent Marker', cursive;
+	color: #AA6C39;
+	background-color: transparent;
+	cursor: pointer;
+	border: 0.5px solid #FFE7AA;
+}
+.game-info {
+	margin-left: 40px;
+	color: #FFE7AA;
+	
+}
+.game-info button {
+	font-family: 'Permanent Marker', cursive;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	color: #FFE7AA;
 }
