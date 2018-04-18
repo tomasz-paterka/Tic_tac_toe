@@ -1,5 +1,36 @@
+* {
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
 .board-row:after {
 	clear: both;
 	content: "";
 	display: table;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.game {
+	
+}
+
+.game-board {
+	
+	height: 600px;
+	width: 600px;
+}
+.game-field {
+	
+	
+}
+.board-row {
+	display: flex;
+	
+}
+.square {
+	flex: 1;
+	height: 200px;
 }
