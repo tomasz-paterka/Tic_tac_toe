@@ -1,4 +1,4 @@
-<a href='https://tomasz-paterka.github.io/tic_tac_toe/'>Live preview</a>
+[Live preview](https://tomasz-paterka.github.io/tic_tac_toe/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
